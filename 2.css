@@ -1,14 +1,44 @@
-body {font-family:serif;}
-.import {padding-bottom:10px;}
-.import input[type=text] {width:630px;}
 
+H1 { 
+    background:black;
+    color:white;
+    margin:1px 1px 2px 1px;
+    font-size:70px;
+    padding:2px 1px 5px 1px;
+    text-align:center;    
+}
+body {font-family:serif;}
+ text-align: center;
+.import {padding-bottom:50px;}
+.import input[type=text] {width:630px;}
+ 
 .valid {background-color:limegreen;}
 .invalid {background-color:red;}
 .imported_square {background-color:lightblue;}
-
 .sudoku {border:5px solid darkblue; border-collapse: collapse;}
+ 
 .sudoku tr {padding:0;}
 .sudoku td {padding:0; border:1px solid black; width:1em;}
-.sudoku input {width:1em; border:0; font-size:25pt; text-align:center;}
+.sudoku input {width:1em; border:0; font-size:30pt; text-align:center;}
 .sudoku .thick_right {border-right:5px solid red!important;}
 .sudoku .thick_bottom {border-bottom:5px solid red;}
+  body
+{
+      image-container
+        {
+            width:200px;
+            height:200px;
+            text-align:right;
+            line-height:300px;
+        }
+        
+    background-color:aqua;
+     border: 1px solid gray;
+        border-radius: 10px;
+        font-size: 30px;
+        text-align: center;
+        background-color: blanchedalmond;
+         color:black;
+        
+        box-shadow: 1px 10px 10px 1px rgb(167, 56, 56);
+}
