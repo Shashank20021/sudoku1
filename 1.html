@@ -1,8 +1,15 @@
-<!DOCTYPE html>
-<html lang="english">   
+ <!DOCTYPE html>
+<html lang="english">  
+<head>
+<title>Shashank sudoku</title>
+<link rel="stylesheet"href="sudoku.css"> 
 <body>
 
 <div class="import">
+    <h1> SUDOKU..</h1>
+		The Fun Begins</br>
+		
+        
     <input type="text" name="import_string" value="080100007000070960026900130000290304960000082502047000013009840097020000600003070" />
     <br />
     <button id="import">Import</button>
@@ -12,9 +19,12 @@
     -->
 </div>
 
-<table class="sudoku">
+<center>
+ <table class="sudoku"  >
     <tbody>
-    <tr class="1">
+        
+    <tr class="1"   >
+         
         <td class="1"><input type="text" maxlength="1" /></td>
         <td class="2"><input type="text" maxlength="1" /></td>
         <td class="3 thick_right"><input type="text" maxlength="1" /></td>
@@ -114,6 +124,7 @@
         <td class="9"><input type="text" maxlength="1" /></td>
     </tr>
     </tbody>
-</table>
+</table> </center>
+<script src="sudoku.js"></script>
 </body>
 </html>
